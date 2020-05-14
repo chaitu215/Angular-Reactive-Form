@@ -1,0 +1,30 @@
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * The content below * * * * * * * * * * * -->
+<!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * -->
+<!-- * * * * * * * * * * and can be replaced. * * * * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+<!-- * * * * * * * * * Delete the template below * * * * * * * * * * -->
+<!-- * * * * * * * to get started with your project! * * * * * * * * -->
+<!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
+
+<form [formGroup]="customInputForm">
+  <!-- <custom-input label ="Default component(not connected to form )">
+  </custom-input> -->
+
+  <app-custom-input label="email Address"
+  placeholder="example@gmail.com"
+  formControlName="email"></app-custom-input>
+
+  <app-custom-input label="Full Name"
+  placeholder="Joe"
+  formControlName="fullname"></app-custom-input>
+
+  <app-custom-input label="phone number"
+  formControlName="phone"></app-custom-input>
+
+</form>
+
+<pre><code>{{customInputForm.value | json}}</code></pre>
+
+
+<router-outlet></router-outlet>

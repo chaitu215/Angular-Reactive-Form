@@ -1,0 +1,16 @@
+label{
+    display:block;
+    font-weight:1rem;
+    margin-top: 1rem;
+}
+
+input {
+    font-size: 1rem;
+    padding:1px
+}
+
+input:disabled{
+    background-color: aliceblue;
+    border: 1px solid #ddd;
+    color: #666;
+}
