@@ -1,3 +1,10 @@
+# Set up
+go to the folder path 
+
+1) npm install 
+
+2) npm start 
+
 # ReactiveForm
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.3.
